@@ -7,6 +7,10 @@
     clip-path: polygon(0 0, 100% 0%, 100% 15%, 0% 100%);
 
 }
+
+.nav-bg {
+    background-color:  #303030;
+}
 .hero-bg {
     background-color: #434343;
 }
@@ -15,6 +19,12 @@
     z-index: 0;
 }
 
-.testemonials-bg {
+.testemonials {
     background-color: #434343;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.testemonials .quotes {
+    color: rgb(224, 222, 222);
+    font-size: 16px;
 }
