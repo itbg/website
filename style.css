@@ -19,6 +19,21 @@
     z-index: 0;
 }
 
+.hero-illustration {
+	position: relative;
+}
+
+.hero-illustration .water-pipe {
+	position: absolute;
+	top: 42%;
+	left: -50px;
+}
+
+.water-pipe {
+    animation: water-moving infinite ease-in-out 10s;
+}
+
+
 .testemonials {
     background-color: #434343;
     font-family: 'Montserrat', sans-serif;
@@ -77,3 +92,28 @@
 		-webkit-transform: translateY(0%);
 	}			
 }
+
+@-webkit-keyframes water-moving {
+	0% {
+		-webkit-transform: translateX(-50vw);
+		opacity: 0;
+	}			
+	50% {
+		-webkit-transform: translateX(0%);
+		opacity: 1;
+	}
+	80% {
+		transform: rotate(20deg);
+		opacity: 1;	
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@media (max-width: 767px) {
+  .hero-illustration .boy {
+      margin: 0 auto;
+      width: 60vw;
+      height: 60vw;
+  }  
+} 
