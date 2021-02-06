@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (unknown)"
+   sodipodi:docname="logo.svg"
+   id="svg8"
+   height="900"
+   width="900"
+   style="fill:none"
+   version="1.1">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg8"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="345.28958"
+     inkscape:cx="499.05268"
+     inkscape:zoom="0.7640118"
+     fit-margin-bottom="150"
+     fit-margin-right="50"
+     fit-margin-left="50"
+     fit-margin-top="150"
+     lock-margins="false"
+     inkscape:pagecheckerboard="false"
+     showgrid="false"
+     id="namedview10"
+     inkscape:window-height="1028"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <path
+     id="path2"
+     d=""
+     style="fill:none;stroke:#6a6a6a;stroke-width:15px;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     id="path4"
+     d=""
+     style="fill:none;stroke:#4a4a4a;stroke-width:15px;stroke-linecap:round;stroke-linejoin:round" />
+  <path
+     id="path6"
+     d="m 270,210 v 0 60 h 60 v -60 h -60 m 15,15 v 0 h 30 v 30 h -30 v -15 h 30 m -45,90 v 0 h 60 v 180 60 H 270 V 345 h 45 V 555 H 285 V 360 h 15 v 180 m 90,-330 v 0 60 h 60 60 60 60 60 V 210 H 405 v 45 H 675 V 225 H 420 v 15 h 240 m -150,90 v 0 h 60 V 570 H 510 V 345 h 45 V 555 H 525 V 360 h 15 V 540 M 750,210 v 0 h 60 V 630 H 750 V 225 h 45 V 615 H 765 V 240 h 15 v 360 m 30,30 v 0 60 H 750 210 v -60 h 525 v 15 h 75 v 30 H 210 v -30 h 510 v 15 h 75 l -75,15 H 225 m 0,-15 v 0 H 795 M 210,270 v 0 -60 h -60 v 60 h 45 v -45 h -30 v 30 h 30 V 240 H 180 M 90,210 v 0 480 H 210 V 630 H 90 m 60,-360 v 0 H 90 v -60 h 45 v 45 h -30 v -45 h 15 v 15 h 15 l -15,15 v 0 m 15,15 v 0 l -15,-15 h -15 v -15 h 45 l -15,15 m 15,30 v 0 420 m 45,-45 v 0 h -30 v 30 h 30 v -15 h -15 m -45,15 v 0 -390 h -30 v 390 h 15 V 300 285"
+     style="fill:none;stroke:#f4f4f4;stroke-width:15px;stroke-linecap:square;stroke-linejoin:miter" />
+</svg>

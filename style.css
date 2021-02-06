@@ -1,3 +1,8 @@
+.logo {
+	width: 50px;
+	height: 50px;
+}
+
 .stripe {
     width: 100%;
     height: 800px;
@@ -5,12 +10,17 @@
     background-color: #303030;
     z-index: -1;
     clip-path: polygon(0 0, 100% 0%, 100% 15%, 0% 100%);
-
 }
 
 .nav-bg {
     background-color:  #303030;
 }
+
+nav a{
+	color: #aaaaaa;
+	cursor: pointer;
+}
+
 .hero-bg {
     background-color: #434343;
 }
@@ -30,18 +40,46 @@
 }
 
 .water-pipe {
-    animation: water-moving infinite ease-in-out 10s;
+    animation: water-moving infinite ease-in-out 15s;
+}
+#main {
+	display: none;
+}
+#moving {
+	animation: water-pouring infinite ease-in-out 20ms, toggle-pouring infinite ease-in-out 15s;
 }
 
+#leaves {
+	animation: expand infinite ease-in-out 15s;
+}
 
-.testemonials {
+.testimonials {
     background-color: #434343;
-    font-family: 'Montserrat', sans-serif;
 }
 
-.testemonials .quotes {
-    color: rgb(224, 222, 222);
+.testimonials h1 {
+	padding-top: 150px;
+	text-align: center;
+}
+
+.testimonial .quotes {
+    color: #c5c2c2;
     font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.testimonial .role {
+	color: #aaaaaa;
+}
+
+.testimonial .name {
+	color: white;
+}
+
+.water-drops {
+	position: absolute;
+	top: 55%;
+	left: 40px;
 }
 
 #bulb {
@@ -98,16 +136,61 @@
 		-webkit-transform: translateX(-50vw);
 		opacity: 0;
 	}			
-	50% {
+	30% {
 		-webkit-transform: translateX(0%);
 		opacity: 1;
 	}
-	80% {
+	40% {
 		transform: rotate(20deg);
 		opacity: 1;	
 	}
+	90% {
+		transform: rotate(20deg);
+		opacity: 1;
+	}
 	100% {
 		opacity: 0;
+	}
+}
+
+@-webkit-keyframes water-pouring {
+	0% {
+		-webkit-transform: translateY(0%);	
+	}			
+	100% {
+		-webkit-transform: translateY(25%);
+	}
+}
+
+@-webkit-keyframes toggle-pouring {
+	0% {
+		opacity: 0;
+	}
+	40% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;	
+	}
+	90% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes  expand{
+	0% {
+	}
+	40% {
+	}
+	50% {
+		transform: translate(-40px, -38%) scale(1.5);
+	}
+	90% {
+	}
+	100% {
 	}
 }
 @media (max-width: 767px) {
