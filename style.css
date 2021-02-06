@@ -184,11 +184,13 @@ nav a{
 	0% {
 	}
 	40% {
+		transform: scale(1.0);
 	}
 	50% {
-		transform: translate(-40px, -38%) scale(1.5);
+		transform: scale(1.0);
 	}
 	90% {
+		transform: translate(-40px, -38%) scale(1.5);
 	}
 	100% {
 	}
