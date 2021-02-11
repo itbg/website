@@ -258,9 +258,13 @@ nav a{
   }
   .hero-illustration .water-pipe {
 	width: 16vw;
+	top: 34%;
+	left: -3vw;
   }	
 	.water-drops {
-		left: 75px;
+		width: 6vw;
+		left: 12vw;
+		top: 50%;
 	}
 
 
