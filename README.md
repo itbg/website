@@ -16,7 +16,7 @@ STUDY GROUPS И ПРОБНИ ИНТЕРВЮТА, КОИТО ДА ПОМОГНА�
 - Discord link
 
 
-## SECTION `КАК ДЕЙНСТВАМЕ?`
+## SECTION `NOOB 2 JUNIOR`
 
 НЕ ИНВЕСТИРАМЕ В БЕТОН И ОФИСИ, ИНВЕСТИРАМЕ В ДОБРЕ ОРГАНИЗИРАН ДИСКОРД СЪРВЪР.
 
@@ -29,3 +29,6 @@ STUDY GROUPS И ПРОБНИ ИНТЕРВЮТА, КОИТО ДА ПОМОГНА�
 1. Study group works on a project
 1. Mentors act as tech leads/project managers/
 1. Delivery
+1. Fake interview
+1. Hireable role!
+
