@@ -1,0 +1,35 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	background-color: #282636;
+	color: #D2D0F2;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	padding: 0 1em;
+}
+
+img.emoji {
+	height: 1.375em;
+	width: 1.375em;
+	margin: .1em .05em .1em .1em;
+	vertical-align: -0.1em;
+ }
+ 
+ .rules {
+	 margin: 0 auto;
+ }
+
+ .rules li {
+	 display: flex;
+	 margin: 0.5em 0;
+ }
+
+ .rules li p{
+	 margin-left: 0.5em;
+ }
