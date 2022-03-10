@@ -1,12 +1,9 @@
 
 html {
-	height: 100%;
 }
 
 body {
-	height: 100%;
 	display: flex;
-	align-items: center;
 	background-color: #282636;
 	color: #D2D0F2;
 	font-family: 'Roboto', sans-serif;
@@ -22,7 +19,7 @@ img.emoji {
  }
  
  .rules {
-	 margin: 0 auto;
+	 margin: 10% auto;
  }
 
  .rules li {
